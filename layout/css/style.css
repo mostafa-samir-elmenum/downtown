@@ -1,0 +1,336 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+/*start top nav*/
+.topnav
+{
+    width: 100%;
+    height: 130px;
+    background-color: rgba(0,0,0,1) !important;
+}
+.topnav .img img
+{
+    width: 200px;
+    height: 100px;
+    margin-top: 13px;
+}
+/*end top nav*/
+
+/*start header*/
+.header
+{
+    background-image: url("../img/header/TIRAZ\ 2\ BROCHURE\ -\ 06012021_page-0004.jpg");
+    width: 100%;
+    height: 680px;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.header .img img
+{
+    width: 100px;
+    height: 78px;
+}
+.header .overlay
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(128,171,203,0.7) !important;
+    height: auto !important;
+    min-width: 25px !important;
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+    font-weight: bold;
+    padding: 30px;
+    font-family: 'Cairo', sans-serif;
+    margin-top: 40px;
+}
+.header .overlay .color-yellow
+{
+    color:rgb(255, 252, 0);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+}
+.header .header-icon
+{
+    margin-top: 13px;
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%,-50%);
+}
+ .header-icon a
+{
+        color: #fff;
+    text-decoration: none;
+}
+ .header-icon .ff
+{
+        background-color: #f00;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 51px;
+}
+ .header-icon .ss
+{
+    background-color: #080;
+       
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 51px;
+}
+@media screen and (max-width: 580px) {
+    .header
+    {
+        height: 681px;
+    }
+    .header .img img
+    {
+            margin-top: 24px;
+    }
+    .header .overlay
+    {
+        top: 41%;
+        min-width: 89% !important;
+        line-height: 1.2;
+        font-size: 16px !important;
+    }
+    .sidebar .carousel-inner {
+        height: 307px !important;
+        margin-bottom: 0;
+    }
+    .portfolio img
+    {
+        margin-bottom: 20px !important;
+    }
+    .info
+    {
+        margin-bottom: 25px;
+    }
+    .services
+    {
+        height: 720px !important;
+    }
+    .services .ser-content
+    {
+        top: 52% !important;
+    }
+    .last
+    {
+        height: 561px !important;
+    }
+    .last .one-content 
+    {
+        height: 203px !important;
+            padding-top: 29px;
+
+    }
+    .last .two-content 
+    {
+        height: 316px !important;
+            padding-top: 29px;
+
+    }
+    .services .ser-content
+    {
+        width: 83%;
+    }
+    .services p
+    {
+        margin-bottom: 49px;
+    }
+  }
+/*start header*/ 
+/*start breif*/ 
+.breif
+{
+   /* background-color: rgba(122,117,155,1) !important;*/
+    height: 94px;
+   /* margin-top: 25px;*/
+    color: #000;
+    font-size: 26px;
+    /*margin-bottom: 25px;*/
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+}
+/*end breif*/ 
+
+/*start sidebar*/
+.sidebar
+{
+    /*margin-bottom: 25px;*/
+}
+.sidebar .carousel-inner
+{
+    height: 400px;
+}
+.sidebar .carousel-inner .carousel-item img
+{
+    background-size: cover !important;
+    background-position: bottom !important;
+}
+/*end sidebar*/   
+/*start about*/
+.about
+{
+    background-color: rgba(122,117,155,1) !important;
+    height:200px;
+    position: relative;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+   /* margin-bottom: 25px;*/
+}
+.about .content
+{
+    width: 322.986px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/*end about*/
+
+/*start info*/
+.info
+{
+    /*background-color: rgba(122,117,155,1) !important;*/
+    height: 100px;
+    /*margin-top: 25px;*/
+    color: #000;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Cairo', 'sans-serif';
+    padding-top: 13px;
+    margin-bottom: 0;
+}
+/*end info*/
+
+/*start our services*/
+.services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../img/services/image.jpg");
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    position: relative;
+}
+.services .ser-content
+{
+    position: absolute;
+    top: 50%;
+        left: 55%;
+
+    transform: translate(-50%,-50%);
+}
+.services p
+{
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+}
+/*end our services*/
+
+/*start last*/
+.last
+{
+    background-image: url("../img/last/6.jpg");
+    height: 600px;
+    color: #fff;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+}
+.last .color-yellow
+{
+    color:rgb(255, 252, 0) !important;
+
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+}
+.last .one-content
+{
+   /* background-color: rgba(0,0,0,0.5) !important;*/
+    height: 209px;
+    margin-bottom: 15px;
+   /* padding: 20px;*/
+    line-height: 1.2;
+}
+.last .two-content
+{
+    /*background-color: rgba(0,0,0,0.5) !important;*/
+    height: 375px;
+    /*padding: 50px;*/
+    line-height: 1.2;
+}
+/*end last*/
+.footer-icon .call
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.footer-icon .whats
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footer-icon i
+{
+    display: inline;
+    display: block;
+    margin-bottom: 15px;
+}
+ .footer-icon a
+{
+        color: #fff;
+    text-decoration: none;
+}
+.footer-icon .ff
+{
+    background-color: #f00;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+ .footer-icon .ss
+{
+    background-color: #080;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+.real-img
+{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+}
+.man-img
+{
+        margin-top: 23px;
+    margin-bottom: 15px;
+}
+.man-h2
+{
+     font-size: 25px;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+}
